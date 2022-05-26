@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./lib/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="./lib/slick/slick/slick.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-card">
+                    <a href="#" class="header-card__link">
+                        <span class="header-card__link-txt">корзина</span>
+                        <svg class="header-card__link-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="13" fill="none"><path d="M12.267 7.778H5.142l.16.778h6.524c.374 0 .651.347.568.712l-.134.59a1.361 1.361 0 1 1-1.546.253H5.62a1.361 1.361 0 1 1-1.63-.208L2.282 1.556H.583A.583.583 0 0 1 0 .972V.583C0 .261.261 0 .583 0h2.492c.277 0 .516.195.572.466l.223 1.09h9.546c.375 0 .652.347.57.712l-1.15 5.056a.583.583 0 0 1-.569.454z" fill="#D7B469"/></svg>
+                    </a>
+                </div>
+                <div class="header-social">
+                    <ul class="social-list">
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">
+                                <i class="fa-brands fa-vk"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-search">
+                    <form action="" class="header-search__form">
+                        <input type="text" class="header-search__input">
+                        <button class="header-search__btn" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <nav class="header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">акции и скидки</a>
+                            <ul class="header-nav__sublist">
+                                <li class="header-nav__sublist__item">
+                                    <a href="./sertificates-archive.html">подарочные сертификаты</a>
+                                </li>
+                                <li class="header-nav__sublist__item">
+                                    <a href="./card-archive.html">система лояльности</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">ресторан</a>
+                            <ul class="header-nav__sublist">
+                                <li class="header-nav__sublist__item">
+                                    <a href="./rooms-archive.html">Банкетные залы</a>
+                                </li>
+                                <li class="header-nav__sublist__item">
+                                    <a href="./card-archive.html">шатер</a>
+                                </li>
+                                <li class="header-nav__sublist__item">
+                                    <a href="./card-archive.html">беседки</a>
+                                </li>
+                                <li class="header-nav__sublist__item">
+                                    <a href="./card-archive.html">летняя терраса</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">свадьбы</a>
+                            <ul class="header-nav__sublist">
+                                <li class="header-nav__sublist__item">
+                                    <a href="./wedding-1.html">Выездная регистрация</a>
+                                </li>
+                                <li class="header-nav__sublist__item">
+                                    <a href="./wedding-2.html">свадьба в ресторане</a>
+                                </li>
+                                <li class="header-nav__sublist__item">
+                                    <a href="./wedding-3.html">свадьба в коттедже</a>
+                                </li>
+                                <li class="header-nav__sublist__item">
+                                    <a href="./wedding-4.html">свадьба в шатре</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">праздничные мероприятия</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">аренда беседки</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">фотоотчеты</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="sertificates-intro">
+        <div class="container">
+            <div class="sertificates-intro__header">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="sertificates-intro__body">
+                <ul class="sertificates-intro__nav">
+                    <li class="sertificates-intro__nav-item">
+                        <a href="#" class="sertificates-intro__nav-link">выездная регистрация</a>
+                    </li>
+                    <li class="sertificates-intro__nav-item">
+                        <a href="#" class="sertificates-intro__nav-link">свадьба в ресторане</a>
+                    </li>
+                    <li class="sertificates-intro__nav-item">
+                        <a href="#" class="sertificates-intro__nav-link">свадьба в коттедже</a>
+                    </li>
+                    <li class="sertificates-intro__nav-item">
+                        <a href="#" class="sertificates-intro__nav-link">свадьба в шатре</a>
+                    </li>
+                </ul>
+                <div class="breadcrumb">
+                    <ul class="breadcrumb-list">
+                        <li class="breadcrumb-list__item">
+                            <a href="#" class="breadcrumb-list__item-link">Главная /&nbsp;</a>
+                        </li>
+                        <li class="breadcrumb-list__item">
+                            <a href="#" class="breadcrumb-list__item-link">Свадьбы /&nbsp;</a>
+                        </li>
+                        <li class="breadcrumb-list__item">
+                            <a href="#" class="breadcrumb-list__item-link">Свадьба в ресторане&nbsp;</a>
+                        </li>
+                    </ul>
+                </div>
+                <h1 class="sertificates-intro__title">СВАДЬБА В РЕСТОРАНЕ</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="wedding-post sd">
+        <div class="container">
+            <div class="wedding-post__header">
+                <p style="margin-top: 10px;"><b>Свадьба за городом</b> – актуальное решение для тех пар, которые хотят сделать событие по-настоящему торжественным и необычным. И в этом случае «Робинсон клуб» предлагает перенести выездную роспись на живописный берег Минского моря, а сам банкет организовать в ресторане или шатре, снять коттедж, или даже осуществить проведение свадьбы в беседке на воде.</p>
+            </div>
+            <div class="wedding-post__choose">
+                <div class="wedding-post__choose-header">
+                    <h2 class="wedding-post__choose-header-title">Выберите ваш вариант проведения свадьбы</h2>
+                </div>
+                <div class="choose-cards">
+                    <a href="#" class="choose-card">
+                        <img src="./assets/wedding-2_1.jpg" alt="" class="choose-img">
+                        <h3 class="choose-title">Свадьба в коттедже</h3>
+                    </a>
+                    <a href="#" class="choose-card">
+                        <img src="./assets/wedding-2_2.jpg" alt="" class="choose-img">
+                        <h3 class="choose-title">Свадьба в шатре</h3>
+                    </a>
+                    <a href="#" class="choose-card">
+                        <img src="./assets/wedding-2_3.jfif" alt="" class="choose-img">
+                        <h3 class="choose-title">Свадьба на природе</h3>
+                    </a>
+                    <a href="#" class="choose-card">
+                        <img src="./assets/wedding-2_4.jpg" alt="" class="choose-img">
+                        <h3 class="choose-title">Свадьба в ресторане</h3>
+                    </a>
+                </div>
+            </div>
+            <h2 class="wedding-post__title">Банкетные залы для свадьбы</h2>
+            <div class="wedding-content wedding-content--right wedding-content--bordered">
+                <div class="wedding-content__txt-block sd" style="padding-top: 70px;">
+                    <p>Свадьба, пожалуй, одно из самых светлых и радостных событий в жизни каждого человека. Именно в такой атмосфере выдержан интерьер банкетного зала, расположенного на втором этаже нашего ресторана. Максимум света, максимум свежести и чистоты - таковы главные особенности нашего панорамного зала.</p>    
+                    <ul>
+                        <li>Вместимость - до 40 человек</li>
+                        <li>Площадь - 160м2</li>
+                        <li>Выход на открытую террасу</li>
+                        <li>Огромные панорамные окна, которые можно открыть</li>
+                        <li>При желании зал может быть изолирован от других помещений нашего ресторана</li>
+                    </ul>
+                    <p><a href="#" class="wedding-content__design-link">Узнать подробнее</a></p>
+                </div>
+                <div class="wedding-content__img-block">
+                    <p class="wedding-content__img-block-title">Зал "Панорамный" – до 40 человек</p>
+                    <img src="./assets/wedding-2_5.jpg" alt="">
+                </div>
+            </div>
+            <div class="wedding-content wedding-content--left wedding-content--bordered">
+                <div class="wedding-content__img-block">
+                    <p class="wedding-content__img-block-title left">Зал "White Hall" – до 250 человек</p>
+                    <img src="./assets/wedding-2_6.jpg" alt="">
+                </div>
+                <div class="wedding-content__txt-block sd">
+                    <p>В жизни бывают действительно особенные события, праздновать которые нужно в особенной обстановке. Именно такой интерьер можно увидеть в зале White Hall. Каждая деталь подчеркивает важность торжества и особый статус его виновников и участников: величественные колонны и белоснежный цвет, высокие потолки, украшенные изящными коваными ветвями, огромная сцена.</p>  
+                    <ul>
+                        <li>Вместимость - до 250 человек</li>
+                        <li>Сцена и танцпол</li>
+                        <li>Выход на открытую террасу</li>
+                        <li>Зона отдыха и фотозона</li>
+                        <li>Неограниченные возможности для создания собственного стиля свадьбы</li>
+                    </ul> 
+                    <p><a href="#" class="wedding-content__design-link">Узнать подробнее</a></p>
+                </div>
+            </div>
+            <div class="wedding-content wedding-content--right wedding-content--bordered">
+                <div class="wedding-content__txt-block sd" style="padding-top: 70px;">
+                    <p>Отпраздновать свадьбу с размахом и угодить каждому гостю, ─ такое преимущество есть не у каждого зала для торжеств. Но зал «Порт» загородного отеля Robinson Club им обладает.</p>
+                    <p>Приятный нейтральный интерьер зала «Порт» послужит отличной декорацией для Вашего свадебного торжества. Особый шарм обстановке придают тяжелые портьеры из ткани с набивным рисунком и крупные люстры, подвешенные над столами, которые создают в большом помещении уют и расслабленную приятную атмосферу.</p>
+                    <ul>
+                        <li>Вместимость - до 100 человек</li>
+                        <li>Сцена и танцпол</li>
+                        <li>Большая площадь позволит создать любой вариант рассадки гостей</li>
+                        <li>Зона отдыха</li>    
+                    </ul>
+                    <p><a href="#" class="wedding-content__design-link">Узнать подробнее</a></p>
+                </div>
+                <div class="wedding-content__img-block">
+                    <p class="wedding-content__img-block-title">Зал "Порт" – до 100 человек</p>
+                    <img src="./assets/wedding-2_7.jpg" alt="">
+                </div>
+            </div>
+            <div class="wedding-content wedding-content--left wedding-content--bordered">
+                <div class="wedding-content__img-block">
+                    <p class="wedding-content__img-block-title left">Зал "Куб" – до 60 человек</p>
+                    <img src="./assets/wedding-2_8.jpg" alt="">
+                </div>
+                <div class="wedding-content__txt-block sd">
+                    <p>Мечты о празднике, который запомнится, легко осуществимы в этом зале ресторана Robinson club.</p>
+                    <p>Здесь очень часто проходят свадьбы. Высокие потолки, приятный интерьер в светлых тонах, много свободного места, выход на террасу, ─ «Куб» магическим образом притягивает к себе молодоженов и их гостей.</p>
+                    <ul>
+                        <li>Вместимость - до 60 человек</li>
+                        <li>Выход на открытую террасу</li>
+                        <li>Интерьер специально создан для проведения свадьбы</li>
+                        <li>Площадь зала позволяет организовать зону для танцев</li>
+                    </ul> 
+                    <p><a href="#" class="wedding-content__design-link">Узнать подробнее</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stock-block">
+        <div class="container">
+            <div class="stock-block__header">
+                <h2 class="stock-block__title">Акции</h2>
+                <a href="#" class="stock-block__header-link">Смотреть все</a>
+            </div>
+            <div class="stock-cards">
+                <div class="stock-card">
+                    <a href="#" class="stock-card__header">
+                        <img src="./assets/stock_1.jpg" alt="stock 1" class="stock-card__img">
+                    </a>
+                    <div class="stock-card__body">
+                        <h3 class="stock-card__title">Предложение месяца в СПА</h3>
+                        <p class="stock-card__description">Очередной подарок нашим гостям от СПА-центра!
+                            СПА-программы по низким ценам только до 31 мая 2022 года!</p>
+                    </div>
+                    <div class="stock-card__footer">
+                        <a href="#" class="stock-card__link">подробнее</a>
+                    </div>
+                </div>
+                <div class="stock-card">
+                    <a href="#" class="stock-card__header">
+                        <img src="./assets/stock_2.jpg" alt="stock 2" class="stock-card__img">
+                    </a>
+                    <div class="stock-card__body">
+                        <h3 class="stock-card__title">Лето в придачу</h3>
+                        <p class="stock-card__description">Покупайте абонемент в «AQUA SPA» Робинсон Клуб и получайте подарок!</p>
+                    </div>
+                    <div class="stock-card__footer">
+                        <a href="#" class="stock-card__link">подробнее</a>
+                    </div>
+                </div>
+                <div class="stock-card">
+                    <a href="#" class="stock-card__header">
+                        <img src="./assets/stock_3.jpg" alt="stock 3" class="stock-card__img">
+                    </a>
+                    <div class="stock-card__body">
+                        <h3 class="stock-card__title">Стейк меню</h3>
+                        <p class="stock-card__description">Любите мясо на гриле? Оцените наше специальное "Стейк меню"!</p>
+                    </div>
+                    <div class="stock-card__footer">
+                        <a href="#" class="stock-card__link">подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-item footer-contacts">
+                <p class="footer-contacts__license">© 2018 Robinson Club. Официальный сайт</p>
+                <div class="footer-contacts__body">
+                    <p class="footer-contacts__body-title">Hotel & Call Center</p>
+                    <a href="#" class="footer-contacts__body-link">+375 44 502 13 33</a>
+                    <a href="#" class="footer-contacts__body-link">reception@mail.ru</a>
+                </div>
+            </div>
+            <div class="footer-item footer-main">
+                <p class="footer-main__txt">
+                    ООО «Табак-инвест»<br>
+                    (Юр. адрес) Беларусь, 220073, г. Минск, ул. Гусовского, 22<br>
+                    Филиал «Робинсон клуб»<br>
+                    223035, Минская обл., Минский р-н, п/о Ратомка, Ждановичский с/с, 16/1<br>
+                    УНП 601070700
+                </p>
+                <div class="footer-main__body">
+                    <div class="footer-main__body-item">
+                        <img src="./assets/footer_1.png" alt="">
+                        <img src="./assets/footer_2.png" alt="">
+                    </div>
+                    <div class="footer-main__body-item">
+                        <span>Как к нам добраться</span>
+                    </div>
+                    <div class="footer-main__body-item">
+                        <img src="./assets/footer_payment.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item footer-ui">
+                <div class="footer-search">
+                    <form action="">
+                        <input type="text">
+                        <button class="footer-search__submit" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+                <ul class="footer-social">
+                    <li class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <i class="fa-brands fa-vk"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cb-block">
+            <button class="cb-btn" type="button">
+                <svg class="cb-btn__open-icon" role="presentation" class="t651__icon" style="fill:#ffffff;" xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 19.3 20.1"> <path d="M4.6 7.6l-.5-.9 2-1.2L4.6 3l-2 1.3-.6-.9 2.9-1.7 2.6 4.1"></path> <path d="M9.9 20.1c-.9 0-1.9-.3-2.9-.9-1.7-1-3.4-2.7-4.7-4.8-3-4.7-3.1-9.2-.3-11l.5.9C.2 5.7.4 9.7 3 13.9c1.2 2 2.8 3.6 4.3 4.5 1.1.6 2.7 1.1 4.1.3l1.9-1.2L12 15l-2 1.2c-1.2.7-2.8.3-3.5-.8l-3.2-5.2c-.7-1.2-.4-2.7.8-3.5l.5.9c-.7.4-.9 1.3-.5 2l3.2 5.2c.4.7 1.5.9 2.2.5l2.8-1.7 2.6 4.1-2.8 1.7c-.7.5-1.4.7-2.2.7zM13.7 11.3l-.9-.3c.4-1.1.2-2.2-.4-3.1-.6-1-1.7-1.6-2.8-1.7l.1-1c1.5.1 2.8.9 3.6 2.1.7 1.2.9 2.7.4 4z"></path> <path d="M16.5 11.9l-1-.3c.5-1.8.2-3.7-.8-5.3-1-1.6-2.7-2.6-4.7-2.9l.1-1c2.2.3 4.2 1.5 5.4 3.3 1.2 1.9 1.6 4.1 1 6.2z"></path> <path d="M18.9 12.5l-1-.3c.7-2.5.2-5.1-1.1-7.2-1.4-2.2-3.7-3.6-6.3-4l.1-1c2.9.4 5.4 2 7 4.4 1.6 2.4 2.1 5.3 1.3 8.1z"></path> </svg>
+                <svg class="cb-btn__close-icon" width="16px" height="16px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1" fill="#000" fill-rule="evenodd"> <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> </g> </svg>
+            </button>
+            <div class="cb-popup">
+                <div class="cb-form__header">
+                    <h3 class="cb-form__title">Форма обратной связи</h3>
+                </div>
+                <div class="cb-form__body">
+                    <form class="cb-form" action="">
+                        <input type="text" placeholder="Номер телефона">
+                        <button class="cb-form__submit">жду звонка</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./lib/slick/slick/slick.min.js"></script>
+    <script src="./js/custom.js"></script>
+    
+</body>
+</html>
